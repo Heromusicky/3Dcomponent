@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+.flex-box{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    flex-direction: column;
+}
+@media screen and (min-width: 1024px) {
+    .flex-box{
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    flex-direction: row;}
+
+    .sedan{
+        height: 400px;
+        width: 300px;
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 20px 0px 0 20px; 
+    
+    
+    }
+    
+    .suv{
+        height: 400px;
+        width: 300px;
+        background-color:  hsl(179, 100%, 13%);
+    
+    
+    }
+    .luxury{
+        height: 400px;
+        width: 300px;
+        background-color: hsl(184, 100%, 22%);
+        border-radius: 0 20px 20px 0; 
+       
+    
+    
+    }
+
+    
+}
+@media screen and (max-width: 538px){
+
+.sedan{
+    height: 400px;
+    width: 300px;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 20px 20px 0 0;
+
+
+}
+
+.suv{
+    height: 400px;
+    width: 300px;
+    background-color:  hsl(179, 100%, 13%);
+
+
+}
+.luxury{
+    height: 400px;
+    width: 300px;
+    background-color: hsl(184, 100%, 22%);
+    border-radius: 0 0 20px 20px;
+   
+
+
+}}
+
+.logo{
+    padding: 40px 0 0  40px;
+}
+.content{ margin: 0px 40px  0 40px;}
+.content h1{ font-family: 'Big Shoulders Display','Times New Roman', Times, serif;
+font-weight: 700px;
+color: white;}
+.content p{ font-family: 'Lexend Deca','Times New Roman', Times, serif;
+    font-weight: 400px;
+    color: white;}
+    .btn
+    {height: 50px;
+        width: 150px;
+        background-color:  hsl(0, 0%, 95%);
+        border-radius: 20px;
+        margin: 40px;
+        color:  black;
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+
+
+    }
+    
+
+        
+    
